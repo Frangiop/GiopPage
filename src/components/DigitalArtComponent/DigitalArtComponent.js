@@ -2,11 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 
-const DigitalArtComponent = () => (
+const DigitalArtComponent = () => { 
+  return ( 
   <div>
     DigitalArtComponent Component
   </div>
-);
+  ) 
+  };
 
 DigitalArtComponent.propTypes = {};
 

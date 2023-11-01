@@ -2,11 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 
-const CollectionsComponent = () => (
-  <div>
+const CollectionsComponent = () => { 
+return( 
+<div>
     CollectionsComponent Component
   </div>
-);
+)
+ };
 
 CollectionsComponent.propTypes = {};
 
