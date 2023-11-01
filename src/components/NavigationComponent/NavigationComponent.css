@@ -1,0 +1,56 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgba(14, 14, 14, 0.9); /* Usar un fondo semi-transparente */
+    padding: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 9999; /* Asegura que la barra esté en la parte superior */
+    transition: transform 0.3s;
+    transform: translateY(0);
+  }
+  
+  /* Estilos para la barra de navegación cuando está oculta */
+  .navbar.hidden {
+    transform: translateY(-100%);
+  }
+  
+  /* Estilos para el logotipo de texto "GIOP" */
+  .logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los enlaces de navegación */
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #00aaff;
+    text-decoration: underline;
+  }
+  
+  /* Estilos para la línea decorativa */
+  .line {
+    border-top: 1px solid #fff;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
