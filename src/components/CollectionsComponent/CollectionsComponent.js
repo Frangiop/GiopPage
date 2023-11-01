@@ -1,0 +1,15 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
+
+const CollectionsComponent = () => (
+  <div>
+    CollectionsComponent Component
+  </div>
+);
+
+CollectionsComponent.propTypes = {};
+
+CollectionsComponent.defaultProps = {};
+
+export default CollectionsComponent;
