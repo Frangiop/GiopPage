@@ -1,0 +1,36 @@
+/* Estilos para el pie de página */
+.footer {
+    background-color: #333; /* Cambia el color de fondo según tus preferencias */
+    color: #fff; /* Cambia el color del texto según tus preferencias */
+    padding: 20px 0; /* Ajusta el relleno interior según tus necesidades */
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+/* Estilos para el contenido del pie de página */
+.footer .container {
+    max-width: 1200px; /* Ajusta el ancho máximo del contenido del pie de página */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    padding: 0 20px; /* Agrega un relleno a los lados del contenido */
+}
+
+/* Estilos para los párrafos dentro del pie de página */
+.footer p {
+    margin: 10px 0; /* Agrega un espacio entre los párrafos */
+}
+
+/* Estilos para los enlaces */
+.footer a {
+    color: #00aaff; /* Cambia el color de los enlaces según tus preferencias */
+    text-decoration: none; /* Elimina la subrayado de los enlaces */
+}
+/* Estilos para los íconos de redes sociales */
+.social-icons {
+  font-size: 24px; /* Ajusta el tamaño de los iconos según tus necesidades */
+}
+
+.social-icons a {
+  color: #fff; /* Cambia el color de los íconos según tus preferencias */
+  text-decoration: none; /* Elimina la subrayado de los enlaces de los íconos */
+  margin: 0 10px; /* Agrega un espacio entre los iconos */
+}
+    
