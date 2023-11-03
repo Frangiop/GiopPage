@@ -5,6 +5,7 @@ import NavigationComponent from './components/NavigationComponent/NavigationComp
 import ArtistPage from './pages/ArtistPage';
 import CollectionPage from './pages/CollectionPage';
 import DigitalArtPage from './pages/DigitalArtPage';
+import Collections1Component from './components/Collections1Component/Collections1Component';
 
 function App() {
   return (
@@ -15,7 +16,13 @@ function App() {
     <Route exact path="/artist" element={<ArtistPage/>} >Artist</Route>
     <Route exact path="/collections" element={<CollectionPage/>} >Collections</Route>
     <Route exact path="/digital-art" element={<DigitalArtPage/>} >Digital Art</Route>
+
+    
+    {/* Segundos enlaces */}
+
+    <Route exact path="/" element={<Collections1Component/>} />
         </Routes>
+
           </div> 
   );
 }

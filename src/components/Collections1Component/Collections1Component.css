@@ -1,0 +1,40 @@
+.collectionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 190px;/* Agrega un margen superior para las imágenes */
+  }
+  
+  .collectionItem {
+    background-color: #f2f2f2;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .collectionImage {
+    margin-bottom: 10px;
+  }
+  
+  .collectionImage img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .collectionInfo h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .collectionInfo p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Agrega estilos para otros detalles según tus necesidades */
+      
