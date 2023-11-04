@@ -1,8 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
+import { useDispatch, useSelector } from 'react-redux';
+import { getCollections } from '../../store/collections/actions';
+import './Collections1Component.css'; 
 
 
-const Collections1Component = () => (
+const Collections1Component = () =>  { 
+
+  const dispatch = useDispatch();
+  const { collections, loadingCollections } = useSelector((state) => state.CollectionsReducer);
+
+  useEffect(() => {
+    // Llama a la acción para obtener los posts
+    dispatch(getCollections());
+  }, []);
+
+return (
+
   <div className="collectionContainer"> {/* Aplica la clase CSS a la div principal */}
   {collections.map((collection) => (
     <div className="collectionItem" key={collection.id}> {/* Aplica la clase CSS a cada elemento de colección */}
@@ -16,7 +30,8 @@ const Collections1Component = () => (
     </div>
   ))}
 </div>  
-);
+ )
+};
 
 Collections1Component.propTypes = {};
 

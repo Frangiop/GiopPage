@@ -10,7 +10,7 @@ export default function CollectionPage(){
           <div className="contenedor-flex">
             {/* Primer conjunto */}
             <div className="conjunto">
-              <Link to="/multicollections" className="imagen-link">
+              <Link to="/collections1" className="imagen-link">
                 <div className="imagen-con-recuadro">
                   <img src="/images/imagen2.jpg" alt="Imagen de Invierno" className="imagen-artistica" />
                   </div>

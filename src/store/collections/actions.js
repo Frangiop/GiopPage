@@ -3,7 +3,7 @@ import axios from 'axios'
 import {
     GET_COLLECTIONS,
     GET_COLLECTIONS_OK,
-    GET_COLLECTIONS_FAIL
+    GET_COLLECTIONS_FAIL    
 
     } from './actionTypes'
     

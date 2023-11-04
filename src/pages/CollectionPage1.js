@@ -3,7 +3,7 @@ import Collections1Component from "../components/Collections1Component/Collectio
 export default function CollectionPage1(){ 
     return(
 <div>
- <h1>Home Page</h1>
+ <h1>Home Page DALE FUEGO</h1>
  <Collections1Component></Collections1Component>
 </div>
     )

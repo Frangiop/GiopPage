@@ -11,3 +11,5 @@ const store = createStore(rootReducer,composeWithDevTools(applyMiddleware(thunk)
   localStorage.setItem("_user",json) 
 
  }) */
+ 
+ export default store 

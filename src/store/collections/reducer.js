@@ -22,11 +22,11 @@ import {
                  break 
     
              case GET_COLLECTIONS_OK:
-                state={...state,loadingPosts:false , posts:action.payload}
+                state={...state,loadingCollections:false , collections:action.payload}
                  break
                  
              case GET_COLLECTIONS_FAIL:
-                  state={...state,loadingPosts:false, posts:[], error :{message:action.payload} }
+                  state={...state,loadingCollections:false, collections:[], error :{message:action.payload} }
                   break // aquie posts[] lo tenia sin s 
     
                         
