@@ -7,6 +7,9 @@ import CollectionPage from './pages/CollectionPage';
 import DigitalArtPage from './pages/DigitalArtPage';
 
 import CollectionPage1 from './pages/CollectionPage1';
+import CollectionPage2 from './pages/CollectionPage2';
+import CollectionPage3 from './pages/CollectionPage3';
+import CollectionPage4 from './pages/CollectionPage4';
 
 function App() {
   return (
@@ -22,6 +25,12 @@ function App() {
     {/* Segundos enlaces */}
 
     <Route exact path="/collections1" element={<CollectionPage1/>} />
+    
+    <Route exact path="/collections2" element={<CollectionPage2/>} />
+    
+    <Route exact path="/collections3" element={<CollectionPage3/>} />
+    
+    <Route exact path="/collections4" element={<CollectionPage4/>} />
         </Routes>
 
           </div> 

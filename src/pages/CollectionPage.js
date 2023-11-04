@@ -23,7 +23,7 @@ export default function CollectionPage(){
   
             {/* Segundo conjunto */}
             <div className="conjunto">
-              <Link to="/multicollections2" className="imagen-link">
+              <Link to="/collections2" className="imagen-link">
                 <div className="imagen-con-recuadro">
                   <img src="/images/imagen3.jpg" alt="Imagen de Verano" className="imagen-artistica" />
                 </div>
@@ -36,7 +36,7 @@ export default function CollectionPage(){
   
             {/* Tercer conjunto */}
             <div className="conjunto">
-              <Link to="/publicaciones-tres" className="imagen-link">
+              <Link to="/collections3" className="imagen-link">
                 <div className="imagen-con-recuadro">
                   <img src="/images/imagen2.jpg" alt="Imagen adicional" className="imagen-artistica imagen-adicional" />
                 </div>
@@ -49,7 +49,7 @@ export default function CollectionPage(){
   
    {/* 4 conjunto */}
    <div className="conjunto">
-              <Link to="/publicaciones-tres" className="imagen-link">
+              <Link to="/collections4" className="imagen-link">
                 <div className="imagen-con-recuadro">
                   <img src="/images/imagen2.jpg" alt="Imagen adicional" className="imagen-artistica imagen-adicional" />
                 </div>
