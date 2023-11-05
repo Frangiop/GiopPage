@@ -65,31 +65,31 @@ export default function ArtistPage(){
         </div>
               <div className="contenedor-louvre">
                 <div className="imagen-louvre imagen1">
-                  <img src="/images/imagen1.png" alt="Imagen 5" />
+                  <img src="/caras/cara1.jpeg" alt="ImagenCara 1" />
                 </div>
                 <div className="imagen-louvre imagen2">
-                  <img src="/images/imagen2.jpg" alt="Imagen 6" />
+                  <img src="/caras/cara2.jpeg" alt="ImagenCara 2" />
                 </div>
                 <div className="imagen-louvre imagen3">
-                  <img src="/images/imagen4.jpg" alt="Imagen 7" />
+                  <img src="/caras/cara3.jpeg" alt="ImagenCara 3" />
                 </div>
                 <div className="imagen-louvre imagen4">
-                  <img src="/images/imagen3.jpg" alt="Imagen 8" />
+                  <img src="/caras/cara5.jpeg" alt="ImagenCara 5" />
                 </div>
                 <div className="imagen-louvre imagen5">
-                  <img src="/images/imagen2.jpg" alt="Imagen 9" />
+                  <img src="/caras/cara6.png" alt="ImagenCara 6" />
                 </div>
                 <div className="imagen-louvre imagen6">
-                  <img src="/images/imagen1.png" alt="Imagen 10" />
+                  <img src="/caras/cara3.jpeg" alt="ImagenCara 3" />
                 </div>
                 <div className="imagen-louvre imagen7">
-                  <img src="/images/imagen2.jpg" alt="Imagen 11" />
+                  <img src="/caras/cara1.jpeg" alt="ImagenCara 1" />
                 </div>
                 <div className="imagen-louvre imagen8">
-                  <img src="/images/imagen3.jpg" alt="Imagen 12" />
+                  <img src="/caras/cara5.jpeg" alt="ImagenCara 5" />
                 </div>
                 <div className="imagen-louvre imagen2">
-                  <img src="/images/imagen2.jpg" alt="Imagen 6" />
+                  <img src="/caras/cara6.png" alt="ImagenCara 6" />
                 </div>
                 
               </div>

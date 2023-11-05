@@ -6,7 +6,7 @@ export default function CollectionPage(){
     return(
         <div className="publicaciones-page">
         <div className="pagina-publicaciones">
-          <h1>RECORRIDOS</h1>
+          <h1>RECORRIDOS  COLECCIONES</h1>
           <div className="contenedor-flex">
             {/* Primer conjunto */}
             <div className="conjunto">
@@ -16,8 +16,8 @@ export default function CollectionPage(){
                   </div>
               </Link>
               <div className="recuadro-derecha">
-                <h2>Temporada Invierno</h2>
-                <p>Explora nuestra colección de obras de arte de la temporada de invierno. Descubre la belleza y la historia detrás de cada obra.</p>
+                <h2>Colleción oscuros</h2>
+                <p>Explora nuestra colección de obras de arte de la temporada de oscuro. Descubre la belleza y la historia detrás de cada obra.</p>
               </div>
             </div>
   
@@ -29,8 +29,8 @@ export default function CollectionPage(){
                 </div>
               </Link>
               <div className="recuadro-derecha">
-                <h2>Temporada Verano</h2>
-                <p>Sumérgete en la calidez de nuestra colección de obras de la temporada de verano. Explora el arte y la cultura estivales.</p>
+                <h2>Temporada Colores</h2>
+                <p>Sumérgete en la calidez de nuestra colección de obras de la temporada de colores. Explora el arte y la cultura estivales.</p>
               </div>
             </div>
   
@@ -42,8 +42,8 @@ export default function CollectionPage(){
                 </div>
               </Link>
               <div className="recuadro-derecha">
-                <h2>Encuentra todas las obras del museo</h2>
-                <p>Explora nuestra vasta colección de obras maestras de arte, desde pinturas y esculturas hasta artefactos históricos. Descubre la riqueza cultural del museo y sumérgete en la historia y la belleza que ofrecemos.</p>
+                <h2>Temporada Celeste</h2>
+                <p>Explora nuestra vasta colección de obras de arte, basadas en colores templados.</p>
               </div>
             </div>
   
@@ -55,9 +55,8 @@ export default function CollectionPage(){
                 </div>
               </Link>
               <div className="recuadro-derecha">
-                <h2>Encuentra todas las obras del museo</h2>
-                <p>Explora nuestra vasta colección de obras maestras de arte, desde pinturas y esculturas hasta artefactos históricos. Descubre la riqueza cultural del museo y sumérgete en la historia y la belleza que ofrecemos.</p>
-              </div>
+                <h2>Temporada Digital</h2>
+                <p>Nuevas obras de arte digital con estilos Giop</p>
             </div>
   
      {/*
@@ -93,5 +92,6 @@ export default function CollectionPage(){
           </div>
         </div>
       </div>
+    </div>
       )
   } 

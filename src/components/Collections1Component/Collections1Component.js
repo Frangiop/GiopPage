@@ -18,7 +18,9 @@ const Collections1Component = () =>  {
 return (
 
   <div className="collectionContainer"> {/* Aplica la clase CSS a la div principal */}
+     
   {collections.map((collection) => (
+    
     <div className="collectionItem" key={collection.id}> {/* Aplica la clase CSS a cada elemento de colección */}
       <div className="collectionImage">
         <img src={collection.cover} alt={collection.title} />
