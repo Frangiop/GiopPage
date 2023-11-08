@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import './NavigationComponent.css'; 
+import LanguageSelectorComponentComponent from '../LanguageSelectorComponentComponent/LanguageSelectorComponentComponent';
 
 const NavigationComponent = () => { 
 
@@ -43,6 +44,8 @@ return (
 <Link to='/collections' className="nav-link" >Collections</Link>  
 <Link to='/digital-art'className="nav-link" >Digital Art</Link>
 </div>
+<LanguageSelectorComponentComponent></LanguageSelectorComponentComponent>
+
     </div>
 )
  };

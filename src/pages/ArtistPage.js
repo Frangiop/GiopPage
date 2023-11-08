@@ -4,8 +4,14 @@ import { Parallax } from 'react-parallax';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './ArtistPage.css'; 
+import { useTranslation } from 'react-i18next';
+
+
 
 export default function ArtistPage(){ 
+
+  const { t } = useTranslation();
+
     return(
         <div className="artist-page" style={{ marginTop: '60px' }}>
 
@@ -17,7 +23,7 @@ export default function ArtistPage(){
         
               <div className="contenedor-imagenes-artisticas">
                 <div style={{ height: '50vh' }}>
-                  <h1 className="titulo-principal">Bienvenido al Museo</h1>
+                  <h1 className="titulo-principal">{t('Chequea las pinturas')}</h1>
                   {window.innerWidth < 768 ? (
                     <Carousel showArrows={true} showThumbs={false}>
                       <div>
@@ -48,7 +54,7 @@ export default function ArtistPage(){
         
               <div className="texto-entre-imagenes">
                 <p>
-                  Explora la belleza del arte en nuestro museo. Déjate llevar por la creatividad y la expresión artística.
+                  Déjate llevar por la creatividad y la expresión artística.
                 </p>
               </div>
         

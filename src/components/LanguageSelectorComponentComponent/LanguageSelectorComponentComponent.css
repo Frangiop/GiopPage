@@ -1,0 +1,79 @@
+/* LanguageSelectorComponentComponent.css */
+
+.language-selector {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .selected {
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    transition: background-color 0.2s;
+  }
+  
+  .selected:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .arrow {
+    font-size: 24px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #ffffff; /* Cambia el color si es necesario */
+  transform: rotate(0deg);
+  transition: transform 0.2s;
+  margin-left: 5px;
+  }
+  
+  .language-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 5px 5px;
+  }
+  
+  .language-selector.open .arrow {
+    transform: rotate(180deg);
+  }
+  
+  .language-selector.open .language-menu {
+    display: block;
+  }
+  
+  .language-menu li {
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s;
+  }
+  
+  .language-menu li:hover {
+    background-color: #f7f7f7;
+  }
+  
+
+  
+  .language-selector.top-left {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+  }

@@ -27,7 +27,7 @@ return (
       </div>
       <div className="collectionInfo">
         <h2>{collection.title}</h2>
-        <p>Descripción u otros detalles</p>
+        <p>Click para ver en detalle</p>
       </div>
     </div>
   ))}
